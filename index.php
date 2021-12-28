@@ -50,7 +50,7 @@
  </section>
 
 </br></br>
-<form action="index.php" method="post">
+<form action="indexx.php" method="post">
   
   <div class="container p-3 my-3 border">
   <h1>Order Booking Form</h1> <br>
