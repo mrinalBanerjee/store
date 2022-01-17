@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
-<link rel="stylesheet" href="style.css"></head>
+<link rel="stylesheet" href="./style.css"></head>
  <body>
 <nav class="navbar navbar-dark bg-primary">
   <a class="navbar-brand" href="admin.php">BSD ADMIN</a>
@@ -36,8 +36,6 @@
 </nav> 
 </br></br>
 <?php
-   include('connection.php');  
-
 
    $conn=mysqli_connect("sql6.freesqldatabase.com","sql6466184","NkynqrJ36R","sql6466184");
   $sql="select * from items";
