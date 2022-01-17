@@ -17,8 +17,8 @@ if (mysqli_query($conn,$sql))
 {
 
   echo ' <div class="alert alert-success" role="alert">
-  booking successful <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-</div>'; 
+  Booking Successful 
+</div> '; 
  
 }
 else{
