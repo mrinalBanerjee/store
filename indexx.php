@@ -11,15 +11,13 @@ if(isset($_POST["sub"]))
   $Add=$_POST["Address"];
   $sql="insert into items(department,item,quartity,address) 
   values('$Depname','$item',$quan,'$Add')";
-/*
+
 
 if (mysqli_query($conn,$sql))
 {
 
-  echo '<script type="text/javascript">';
   echo ' alert("booking successful")'; 
-  echo '</script>'; 
-
+ 
 }
 else{
   echo "not ok";
@@ -27,6 +25,5 @@ else{
 }
 }
 
-*/
 
 ?>
