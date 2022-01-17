@@ -16,7 +16,9 @@ if(isset($_POST["sub"]))
 if (mysqli_query($conn,$sql))
 {
 
-  echo ' alert("booking successful")'; 
+  echo ' <div class="alert alert-success" role="alert">
+  booking successful <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>'; 
  
 }
 else{
