@@ -62,7 +62,7 @@
   <input type="submit" class="btn btn-primary" name="sub">
   </form>
   </div>
-  </br></br>
+  </br>
   <!-- carousel -->
 <section class="pt-5 pb-5">
   <div class="container">
