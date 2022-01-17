@@ -11,6 +11,7 @@ if(isset($_POST["sub"]))
   $Add=$_POST["Address"];
   $sql="insert into items(department,item,quartity,address) 
   values('$Depname','$item',$quan,'$Add')";
+/*
 
 if (mysqli_query($conn,$sql))
 {
@@ -25,5 +26,7 @@ else{
   echo mysqli_error($conn);
 }
 }
+
+*/
 
 ?>
