@@ -12,10 +12,7 @@
    </head>
 <style>
 footer {
-  border-top: solid 1px;
-  width: 100%;
-  height: 40px;
-  padding-top: 10px;
+  
   position: absolute;
   bottom: 0;
   left: 0;
