@@ -8,9 +8,9 @@ if(isset($_POST["sub"]))
   $Depname=$_POST["Deptname"];
   $item=$_POST["item"];
   $quan=$_POST["quantity"];
-  $Add=$_POST["Address"];
+  $add=$_POST["Address"];
   $sql="insert into items(department,item,quartity,address) 
-  values('$Depname','$item',$quan,'$Add')";
+  values('$Depname','$item',$quan,'$add')";
 /*
 
 if (mysqli_query($conn,$sql))
