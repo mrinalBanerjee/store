@@ -39,7 +39,7 @@
    include('connection.php');  
 
 
-  $conn=mysqli_connect("localhost","root","","store");
+   $conn=mysqli_connect("sql6.freesqldatabase.com","sql6466184","NkynqrJ36R","sql6466184");
   $sql="select * from items";
   $result=mysqli_query($conn,$sql);
   
