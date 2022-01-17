@@ -19,10 +19,10 @@
     <span class="fas fa-bars" style="font-size:27px; color:#F5FFFF;"></span>
   </button>
 	  <div class="collapse navbar-collapse" id="navbarNav">
-<hr>
+<hr style="width:100%; color:#000;">
     <ul class="navbar-nav">
 
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
