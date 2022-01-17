@@ -19,7 +19,7 @@
     <span class="fas fa-bars" style="font-size:27px; color:#F5FFFF;"></span>
   </button>
 	  <div class="collapse navbar-collapse" id="navbarNav">
-<hr/>
+<hr>
     <ul class="navbar-nav">
 
       <li class="nav-item active">
