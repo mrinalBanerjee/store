@@ -50,7 +50,7 @@
    </div>
  </section>
 
-</br></br>
+<br/>
 <form action="indexx.php" method="post">
   
   <div class="container p-3 my-3 border">
@@ -62,7 +62,7 @@
   <input type="submit" class="btn btn-primary" name="sub">
   </form>
   </div>
-  </br>
+  <br/>
   <!-- carousel -->
 <section class="pt-5 pb-5">
   <div class="container">
