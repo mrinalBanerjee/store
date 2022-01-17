@@ -10,3 +10,6 @@
   </form>
   </div>
   </br></br>
+
+
+ $conn=mysqli_connect("sql6.freesqldatabase.com","sql6466184","NkynqrJ36R","sql6466184");
