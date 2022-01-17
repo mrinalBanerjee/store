@@ -14,7 +14,7 @@
  </head>
  <body>
 <nav class="navbar navbar-dark bg-primary">
-  <a class="navbar-brand display-2 font-weight-bold" href="index.php">Banerjee Stores Department</a>
+  <a class="navbar-brand font-weight-bold" href="index.php">Banerjee Stores Department</a>
     <button class="navbar-toggler btn btn-link" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border-color:#007AFF;">
 
     <span class="fas fa-bars" style="font-size:27px; color:#F5FFFF;"></span>
