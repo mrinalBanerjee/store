@@ -35,8 +35,10 @@
   </div>
 </nav> 
 </br></br>
-
 <?php
+   include('connection.php');  
+
+
   $conn=mysqli_connect("localhost","root","","store");
   $sql="select * from items";
   $result=mysqli_query($conn,$sql);
@@ -50,12 +52,18 @@
   <th class='col'>item</th>
   <th class='col'>quartity</th>
   <th class='col'>address</th>
-  <th class='col'></th></thead>
+  </thead>
   ";
 {
  while($row=mysqli_fetch_array($result))
 {
-  echo"<tr><td>".$row['department']."</td><td>".$row['item']."</td><td>".$row['quartity']."</td><td>".$row['address']."</td></tr>" ;
+  echo"<tr>
+  <td>".$row['department']."</td>
+  <td>".$row['item']."</td>
+  <td>".$row['quartity']."</td>
+  <td>".$row['address']."</td>
+</tr>";
+  
 }
 
 echo "</table>";
