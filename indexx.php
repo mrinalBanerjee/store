@@ -1,4 +1,7 @@
-<?php
+ <?php
+
+include('index.php'); 
+
 if(isset($_POST["sub"]))
 {
   $conn=mysqli_connect("sql6.freesqldatabase.com","sql6466184","NkynqrJ36R","sql6466184");
@@ -22,6 +25,5 @@ else{
   echo mysqli_error($conn);
 }
 }
-  
 
 ?>
