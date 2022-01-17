@@ -10,7 +10,19 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
-<link rel="stylesheet" href="../style.css"></head>
+<style>
+footer {
+  border-top: solid 1px;
+  background: rgba(150, 150, 150, 0.5);
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+</style>
  <body>
 <nav class="navbar navbar-dark bg-primary">
   <a class="navbar-brand" href="admin.php">BSD ADMIN</a>
