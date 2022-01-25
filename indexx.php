@@ -14,7 +14,6 @@ if(isset($_POST["sub"]))
 
 
 if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
+echo "successfully";
 }
-echo "Connected successfully";
 ?>
