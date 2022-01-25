@@ -13,17 +13,8 @@ if(isset($_POST["sub"]))
   values('$Depname','$item',$quan,'$Add')";
 
 
-if (mysqli_query($conn,$sql))
-{
-
-  echo "Booking Successful"; 
- 
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
 }
-else{
-  echo "not ok";
-  echo mysqli_error($conn);
-}
-}
-
-
+echo "Connected successfully";
 ?>
