@@ -21,7 +21,7 @@ if (mysqli_query($conn,$sql))
 }
 else{
   echo "not ok";
-  echo mysqli_error($conn);
+ // echo mysqli_error($conn);
 }
 }
 
